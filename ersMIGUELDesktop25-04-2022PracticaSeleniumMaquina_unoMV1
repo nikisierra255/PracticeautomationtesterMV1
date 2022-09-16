@@ -1,0 +1,118 @@
+[33mcommit dc1b8c3619153bcc8a004d2e36041713b15a188f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: niki <nikisierra255@gmail.com>
+Date:   Fri Sep 16 10:05:26 2022 +0200
+
+    modificacion del explicity wait, espera menor de 2 segundo
+
+ Test_explicity wait.py | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit a1837458db16228a2a3248b82a8107f035419ac7[m
+Author: niki <nikisierra255@gmail.com>
+Date:   Fri Sep 16 09:58:31 2022 +0200
+
+    Proyecto de aprendizaje y practica de automatizacion con python, webdriver y selenium
+
+ FuncionesPropias/Excel/Funciones_Excel.py          |  27 [32m+[m
+ FuncionesPropias/Excel/Tests excel base.py         |  61 [32m+++[m
+ FuncionesPropias/FuncionesGlobales1.py             | 559 [32m+++++++++++++++++++++[m
+ FuncionesPropias/pagina_login.py                   |  28 [32m++[m
+ Imagenes/demo1.jpg                                 | Bin [31m0[m -> [32m46989[m bytes
+ Mouse_Actions/Base.py                              |  50 [32m++[m
+ Mouse_Actions/Click(X,Y).py                        |  55 [32m++[m
+ Mouse_Actions/Copiar y Pegar.py                    |  53 [32m++[m
+ Mouse_Actions/DoubleClick Mejorado.py              |  43 [32m++[m
+ Mouse_Actions/DoubleClick Mejorando TextoMixto.py  |  44 [32m++[m
+ Mouse_Actions/DoubleClick.py                       |  48 [32m++[m
+ Mouse_Actions/Mouse Drag and Drop(X,Y).py          |  36 [32m++[m
+ Mouse_Actions/Mouse Drag and Drop.py               |  36 [32m++[m
+ Mouse_Actions/Mouse_Button_Double.py               |  42 [32m++[m
+ Practica page object model/Test11Uploadtae.py      |  38 [32m++[m
+ .../Test13 check multiples.py                      |  38 [32m++[m
+ .../Test14 Texto mixto id xpath.py                 |  42 [32m++[m
+ .../Test6 mejorando la funcion texto Xpath.py      |  39 [32m++[m
+ .../Tests02 (tiempo funcion).py                    |  37 [32m++[m
+ Practica page object model/Tests12 Check.py        |  37 [32m++[m
+ Practica page object model/Tests3 navegar.py       |  43 [32m++[m
+ .../Tests4 Texto con Xpath.py                      |  38 [32m++[m
+ .../Tests5funcion tex por id.py                    |  37 [32m++[m
+ .../Tests7 click id valida.py                      |  39 [32m++[m
+ .../Tests8 reutilizando funciones.py               |  40 [32m++[m
+ Practica page object model/test9 select.py         |  44 [32m++[m
+ Practica page object model/tests01.py              |  35 [32m++[m
+ Practica page object model/tests10 SelectID.py     |  44 [32m++[m
+ Scripts/activate                                   |  83 [32m+++[m
+ Scripts/activate.bat                               |  39 [32m++[m
+ Scripts/activate.fish                              | 100 [32m++++[m
+ Scripts/activate.nu                                |  41 [32m++[m
+ Scripts/activate.ps1                               |  60 [32m+++[m
+ Scripts/activate_this.py                           |  32 [32m++[m
+ Scripts/deactivate.bat                             |  19 [32m+[m
+ Scripts/deactivate.nu                              |  11 [32m+[m
+ Scripts/normalizer.exe                             | Bin [31m0[m -> [32m97172[m bytes
+ Scripts/pip-3.10.exe                               | Bin [31m0[m -> [32m97149[m bytes
+ Scripts/pip.exe                                    | Bin [31m0[m -> [32m97149[m bytes
+ Scripts/pip3.10.exe                                | Bin [31m0[m -> [32m97149[m bytes
+ Scripts/pip3.exe                                   | Bin [31m0[m -> [32m97149[m bytes
+ Scripts/py.test.exe                                | Bin [31m0[m -> [32m97149[m bytes
+ Scripts/pydoc.bat                                  |   1 [32m+[m
+ Scripts/pytest.exe                                 | Bin [31m0[m -> [32m97149[m bytes
+ Scripts/python.exe                                 | Bin [31m0[m -> [32m231312[m bytes
+ Scripts/pythonw.exe                                | Bin [31m0[m -> [32m222096[m bytes
+ Scripts/wheel-3.10.exe                             | Bin [31m0[m -> [32m97136[m bytes
+ Scripts/wheel.exe                                  | Bin [31m0[m -> [32m97136[m bytes
+ Scripts/wheel3.10.exe                              | Bin [31m0[m -> [32m97136[m bytes
+ Scripts/wheel3.exe                                 | Bin [31m0[m -> [32m97136[m bytes
+ Test checkbox .py                                  |  32 [32m++[m
+ Test con implicity wait.py                         |  33 [32m++[m
+ Test_explicity wait.py                             |  26 [32m+[m
+ Test_select.py                                     |  41 [32m++[m
+ Test_upload.py                                     |  34 [32m++[m
+ base_unitest.py                                    |  35 [32m++[m
+ geckodriver.log                                    |  86 [32m++++[m
+ practica 2/base_unitest.py                         |  35 [32m++[m
+ practica 2/pruebalogin.py                          | 130 [32m+++++[m
+ pruebalogin.py                                     | 130 [32m+++++[m
+ pruebas basic/Alert_test.py                        |  41 [32m++[m
+ pruebas basic/CICLO FOR P1.py                      |  17 [32m+[m
+ pruebas basic/CLASE.py                             |   0
+ pruebas basic/CONCATENAR OPERADORES LOGICOS.py     |  20 [32m+[m
+ .../Conditional validar buttons activos.py         |  27 [32m+[m
+ pruebas basic/Hola mundo con selenium.py           |  14 [32m+[m
+ pruebas basic/RELLENO DE FORMULARIO.py             |  48 [32m++[m
+ pruebas basic/Test Key.py                          |  37 [32m++[m
+ pruebas basic/Test checkbox .py                    |  32 [32m++[m
+ pruebas basic/Test con implicity wait.py           |  33 [32m++[m
+ pruebas basic/Test_Scroll.py                       |  31 [32m++[m
+ pruebas basic/Test_explicity wait.py               |  26 [32m+[m
+ pruebas basic/Test_links.py                        |  31 [32m++[m
+ pruebas basic/Test_select.py                       |  41 [32m++[m
+ pruebas basic/Test_select_try.py                   |  48 [32m++[m
+ pruebas basic/Test_upload.py                       |  34 [32m++[m
+ pruebas basic/ciclo for pt2.py                     |   9 [32m+[m
+ pruebas basic/ciclo for pt3.py                     |   6 [32m+[m
+ pruebas basic/ciclo while.py                       |  15 [32m+[m
+ pruebas basic/condicional if.py                    |  23 [32m+[m
+ pruebas basic/condicionales i pt2.py               |  19 [32m+[m
+ pruebas basic/conditional IF .py                   |  33 [32m++[m
+ pruebas basic/conversion en python.py              |  19 [32m+[m
+ pruebas basic/funciones con args.py                |   7 [32m+[m
+ pruebas basic/funciones de cadena.py               |   5 [32m+[m
+ pruebas basic/funciones por parametro pt2.py       |   8 [32m+[m
+ pruebas basic/funciones por parametros.py          |  12 [32m+[m
+ pruebas basic/funciones simples.py                 |  12 [32m+[m
+ .../imprimir valores de cadena con .format.py      |   6 [32m+[m
+ pruebas basic/introducir valores mediante input.py |  19 [32m+[m
+ pruebas basic/manejo de cadena de texto.py         |   6 [32m+[m
+ pruebas basic/manejo de lista.py                   |  15 [32m+[m
+ ... primer test de automatizacion selector ID 2.py |  30 [32m++[m
+ ...primer test de automatizacion selector Xpath.py |  30 [32m++[m
+ ...test de automatizacion selector con by_XPATH.py |  32 [32m++[m
+ ...er test de automatizacion selector con by_id.py |  32 [32m++[m
+ ...primer test de automatizacion selectores CSS.py |  32 [32m++[m
+ ... test de automatizacion selectores multiples.py |  32 [32m++[m
+ pruebas basic/navegacion con automatizacion.py     |  33 [32m++[m
+ pruebas basic/operadores de comparacion.py         |   9 [32m+[m
+ pruebas basic/validar_texto.py                     |  58 [32m+++[m
+ pruebas basic/variables en python.py               |  20 [32m+[m
+ 102 files changed, 3603 insertions(+)
