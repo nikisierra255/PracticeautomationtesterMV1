@@ -10,7 +10,7 @@ driver=webdriver.Chrome(executable_path="C:\DRIVES\chromedriver.exe")
 driver.get("https://demo.seleniumeasy.com/basic-select-dropdown-demo.html")
 driver.maximize_window()
 driver.implicitly_wait(10)
-t=2
+t=0.32
 
 #dias = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//*[@id='at-cv-lightbox-button-holder']/a[2]")))
 diaSelect=driver.find_element_by_xpath("//select[contains(@id,'select-demo')]")
@@ -38,4 +38,4 @@ time.sleep(t)
 
 
 time.sleep(t)
-driver.close()
+driver.close(t)
