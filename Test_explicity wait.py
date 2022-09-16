@@ -9,7 +9,7 @@ driver=webdriver.Chrome(executable_path="C:\DRIVES\chromedriver.exe")
 driver.get("https://demo.seleniumeasy.com/basic-first-form-demo.html")
 driver.maximize_window()
 driver.implicitly_wait(10)
-t=2
+t=0.23
 
 element = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, "//*[@id='at-cv-lightbox-button-holder']/a[2]")))
 element.click()
